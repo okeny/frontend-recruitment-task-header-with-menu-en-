@@ -29,37 +29,3 @@ body input {
 	font-size: 13px;
 }
 
-a, a:visited {
-	color: #090;
-	text-decoration: none;
-	cursor: pointer;
-	outline: 0;
-}
-
-a:hover, a:focus {
-	color: #090;
-	text-decoration: underline;
-}
-
-img.scale-with-grid {
-	max-width: 100%;
-	height: auto;
-}
-
-/* #Grid definitions */  
-    .container                                  {
-        position: relative;
-        width: 1150px;
-        padding: 0;
-        margin-top: 0;
-        margin-right: auto;
-        margin-bottom: 0;
-        margin-left: auto;
-    }
-    .container .column,
-    .container .columns                         { float: left; display: inline; }
-    .row                                        { margin-bottom: 20px; }
-
-    /* Nested Column Classes */
-    .column.alpha, .columns.alpha               { margin-left: 0; }
-    .column.omega, .columns.omega               { margin-left: 0; }
